@@ -3,11 +3,11 @@
 ## 目录结构
 
 - [raid-code](./raid-code)
-  - [linux-4.19.36/drivers/md](./raid-code/linux-4.19.36/md)
-  - [mdadm-4.1-rc2.0.2](./raid-code/mdadm-4.1-rc2.0.2)
+  - [linux-4.19.36/drivers/md](./raid-code/linux-4.19.36/md): 内核态ko
+  - [mdadm-4.1-rc2.0.2](./raid-code/mdadm-4.1-rc2.0.2): 用户态管理工具
 - [network-driver](./network-driver)
-  - [linux-4.19.36](./network-driver/linux-4.19.36): linux kernel 下的 [i40e](./network-driver/linux-4.19.36/i40e) / [i40evf](./network-driver/linux-4.19.36/i40evf) / [ixgbe](./network-driver/linux-4.19.36/ixgbe) / [ixgbevf](./network-driver/linux-4.19.36/ixgbevf)
-  - [dpdk-19.05](./network-driver/dpdk-19.05): dpdk 下的 [i40e](./network-driver/dpdk-19.05/i40e) / [ixgbe](./network-driver/dpdk-19.05/ixgbe) / [mlx4](./network-driver/dpdk-19.05/mlx4) / [mlx5](./network-driver/dpdk-19.05/mlx5)
+  - [linux-4.19.36](./network-driver/linux-4.19.36): linux kernel 下的 [i40e](./network-driver/linux-4.19.36/i40e) / [i40evf](./network-driver/linux-4.19.36/i40evf) / [ixgbe](./network-driver/linux-4.19.36/ixgbe) / [ixgbevf](./network-driver/linux-4.19.36/ixgbevf) 驱动
+  - [dpdk-19.05](./network-driver/dpdk-19.05): dpdk 下的 [i40e](./network-driver/dpdk-19.05/i40e) / [ixgbe](./network-driver/dpdk-19.05/ixgbe) / [mlx4](./network-driver/dpdk-19.05/mlx4) / [mlx5](./network-driver/dpdk-19.05/mlx5) 驱动
 
 ## 相关链接
 
